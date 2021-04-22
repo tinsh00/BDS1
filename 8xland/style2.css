@@ -1,0 +1,155 @@
+p{
+    padding: 0,0,0,10px;
+}
+.container-search{
+    display: flex;
+    width: 70%;
+    margin-left: 20px;
+}
+.container-search__name{
+    
+}
+.result-search{
+    font-size: medium;
+    margin-left: 20px;
+}
+.location-icon{
+    
+    width: 15px;
+    height: 15px;
+}
+    .location-icon>img
+    {
+        margin-top: 13px;
+    }
+.location-title{
+    font-size: 1rem;
+    stroke: none;
+}
+.container-name{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.sale{
+    background: #181515;
+    padding: 10px 2px;
+    color: #fff;
+    display: inline;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    opacity: 60%;
+    
+}
+.tim{
+    width: 30px;
+    height: 30px;
+}
+.location-name{
+    display: flex;
+}
+
+.list_phantrang
+        {
+            margin: 20px;
+            
+            
+        }
+.pagination
+ {
+    display: flex;
+    justify-content: center;
+ }
+ .pagination>li
+    {
+                max-width: 50px;
+                width: 100%;
+                list-style: none;
+                margin: 5px 1px;
+                padding: 10px 10px;
+                font-weight: 500;
+                background-color: #fff;
+                border: 1px solid rgb(12 77 161);
+                font-size: 13px;
+    }
+.page-link
+    {
+        color: rgb(12 77 161);
+    }
+.page-link:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+
+@media (max-width:1024px)
+{
+    .container-search
+    {
+        height: 100%;
+    }
+    .container-search>input 
+    {
+        max-width: 100px;
+        width: 100%;
+        font-size:15px;
+    }
+}
+
+.owl-carousel {
+    padding: 30px;
+}
+.owl-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -250px;
+    
+}
+.item-title {
+    color: #181515;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.subcontent{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.subcontent-icon{
+    
+    width: 15px;
+    height: 15px;
+}
+    .subcontent-icon>img
+    {
+        padding-top: 5px;
+    }
+
+
+.service{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.service-item{
+    display: flex;
+    
+    justify-content: flex-start;
+    
+}    
+.service-icon{
+    width: 20px;
+    height: 20px;
+}
+.owl-nav span   {
+    background-color: rgb(231, 230, 230);
+    color: black;
+    opacity: 80%;
+    margin-left: -20px;
+    margin-right: -20px;
+}
